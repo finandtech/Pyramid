@@ -3,8 +3,8 @@ def makeNumberPyramid(num):
     n = l * int((num + 1) / 2) + int((num + 1) / 2)
     for i in range(1, num + 1):
         if (i < 10):
-            for j in range(1, n - i):
-            print(' ', end="")
+                for j in range(1, n - i):
+                    print(' ', end="")
     for j in range(1, i + 1):
         print(i, end=" ")
     else:
@@ -17,6 +17,5 @@ def makeNumberPyramid(num):
 
     num = eval(input("Enter the number of rows: "))
 
-    output = makeNumberPyramid(num)
-
-    print(output)
+output = makeNumberPyramid(num)
+print(output)
