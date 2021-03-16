@@ -5,17 +5,15 @@ def makeNumberPyramid(num):
         if (i < 10):
                 for j in range(1, n - i):
                     print(' ', end="")
-    for j in range(1, i + 1):
-        print(i, end=" ")
+                for j in range(1, i + 1):
+                    print(i, end=" ")
     else:
         for j in range(1, l * num - l * i):
             print(' ', end="")
-    for j in range(1, i + 1):
-        print(i, end=" ")
+        for j in range(1, i + 1):
+            print(i, end=" ")
     print()
 
 
-    num = eval(input("Enter the number of rows: "))
-
+num = eval(input("Enter the number of rows: "))
 output = makeNumberPyramid(num)
-print(output)
