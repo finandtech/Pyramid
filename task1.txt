@@ -1,0 +1,18 @@
+Function plan
+
+To add space between the each number on the pyramid, we take the lenght and add one unit and 
+we times it by the number of our choice, Line 3
+
+For every number there will be one unit of space, our number increases by 1 unit, if we have 2 spaces we have 3 numbers and so on. 
+
+          1     <- 0 spaces
+         2"2    <- 1 space
+        3"3"3   <- 2 spaces
+
+
+" = one unit of space
+
+We do so by adding an empty string of space and the results are printed. We summon the function and that is it.
+
+
+
